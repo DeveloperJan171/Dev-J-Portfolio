@@ -1,0 +1,34 @@
+@keyframes float {
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-40px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+.orb1{
+    animation:float 10s ease-in-out infinite;
+}
+
+.orb2{
+    animation:float 14s ease-in-out infinite;
+}
+
+.fade-up{
+    opacity:0;
+    transform:translateY(40px);
+    transition:.8s ease;
+}
+
+.fade-up.show{
+    opacity:1;
+    transform:translateY(0);
+}
