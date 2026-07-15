@@ -1,0 +1,480 @@
+/* ==================================================
+   HERO
+================================================== */
+
+.hero-showcase{
+
+    margin-top:50px;
+
+}
+
+.hero-card{
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    background:rgba(255,255,255,.03);
+
+    backdrop-filter:blur(20px);
+
+    transition:.35s;
+
+}
+
+.hero-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(0,229,255,.35);
+
+}
+
+.hero-card img{
+
+    width:100%;
+
+    height:65vh;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/* ==================================================
+   CHALLENGE
+================================================== */
+
+.challenge-showcase{
+
+    margin-top:55px;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    background:rgba(255,255,255,.03);
+
+}
+
+.challenge-showcase img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+/* ==================================================
+   BEFORE / AFTER
+================================================== */
+
+.comparison-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:32px;
+
+    margin-top:60px;
+
+}
+
+.comparison-card{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+}
+
+.comparison-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(0,229,255,.35);
+
+}
+
+.comparison-card span{
+
+    display:block;
+
+    padding:22px 28px;
+
+    color:var(--accent-color);
+
+    font-weight:700;
+
+    letter-spacing:.12em;
+
+    font-size:.82rem;
+
+}
+
+.comparison-card img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+/* ==========================================
+   DETAIL GALLERY
+========================================== */
+
+.detail-gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:28px;
+
+    margin-top:60px;
+
+}
+
+.detail-card{
+
+    overflow:hidden;
+
+    border-radius:22px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    background:rgba(255,255,255,.03);
+
+    transition:.35s;
+
+}
+
+.detail-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(0,229,255,.35);
+
+}
+
+.detail-card img{
+
+    width:100%;
+
+    height:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    transition:.45s;
+
+}
+
+.detail-card:hover img{
+
+    transform:scale(1.04);
+
+}
+
+/* Top Left */
+
+.detail-1{
+
+    aspect-ratio:4/5;
+
+}
+
+/* Top Right */
+
+.detail-2{
+
+    aspect-ratio:4/5;
+
+}
+
+/* Bottom Wide */
+
+.detail-3{
+
+    grid-column:1 / -1;
+
+    aspect-ratio:16/9;
+
+}
+
+/* ==================================================
+   TECHNICAL BREAKDOWN
+================================================== */
+
+.tech-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:24px;
+
+    margin-top:60px;
+
+}
+
+.tech-card{
+
+    padding:36px 30px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    backdrop-filter:blur(20px);
+
+    transition:.35s ease;
+
+}
+
+.tech-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(0,229,255,.35);
+
+    background:rgba(255,255,255,.05);
+
+}
+
+.tech-card span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    color:var(--accent-color);
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    letter-spacing:.18em;
+
+}
+
+.tech-card h3{
+
+    font-size:1.6rem;
+
+    margin-bottom:12px;
+
+    color:#fff;
+
+}
+
+.tech-card p{
+
+    color:rgba(255,255,255,.70);
+
+    line-height:1.7;
+
+    font-size:1rem;
+
+}
+
+/* ==================================================
+   PROJECT REFLECTION
+================================================== */
+
+.project-reflection .section-description{
+
+    max-width:1100px;
+
+}
+
+.section-description{
+
+    max-width:980px;
+
+    font-size:1.05rem;
+    line-height:1.9;
+
+}
+
+.reflection-summary{
+
+    margin-top:50px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:60px;
+
+}
+
+.reflection-column{
+
+    position:relative;
+
+}
+
+.reflection-number{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    color:var(--accent-color);
+
+    font-weight:700;
+
+    letter-spacing:.18em;
+
+    font-size:1rem;
+
+}
+
+.reflection-column h3{
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+    line-height:1.2;
+
+}
+
+.reflection-column p{
+
+    color:rgba(255,255,255,.72);
+
+    line-height:1.9;
+
+}
+
+.project-reflection .case-study-note{
+
+    margin-top:70px;
+
+    padding-top:35px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+
+
+/* ==================================================
+   ANIMATIONS
+================================================== */
+
+.hero-card,
+.challenge-showcase,
+.comparison-card,
+.detail-large,
+.detail-small,
+.tech-card{
+
+    transition:.35s ease;
+
+}
+
+.hero-card:hover,
+.challenge-showcase:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.challenge-showcase:hover{
+
+    border-color:rgba(0,229,255,.35);
+
+}
+
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media(max-width:1100px){
+
+    .comparison-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .detail-gallery{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .detail-large{
+
+        grid-row:auto;
+
+    }
+
+    .tech-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .reflection-summary{
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+    .hero-card img{
+
+        height:70vh;
+
+    }
+
+    .tech-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .detail-gallery{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .detail-3{
+
+        grid-column:auto;
+
+    }
+
+}
