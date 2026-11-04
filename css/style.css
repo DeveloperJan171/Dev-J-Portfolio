@@ -1242,7 +1242,58 @@ h2{
     font-size:1.2rem;
 }
 
+/* SKILL ICON CONTAINER */
+
 .skill-icons{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    width:100%;
+}
+
+/* INDIVIDUAL SKILL ITEM */
+
+.skill-item{
+    display:flex;
+    flex:1;
+    min-width:0;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    gap:12px;
+    text-align:center;
+    transition:.3s ease;
+}
+
+/* SKILL LOGOS */
+
+.skill-item img{
+    width:52px;
+    height:52px;
+    object-fit:contain;
+    display:block;
+}
+
+/* SKILL LABELS */
+
+.skill-item p{
+    color:#b8b8b8;
+    font-size:.9rem;
+    line-height:1.4;
+    text-align:center;
+    min-height:2.5em;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+/* HOVER EFFECT */
+
+.skill-item:hover{
+    transform:translateY(-5px);
+}
+/*.skill-icons{
     display:flex;
     justify-content:space-between;
     gap:20px;
@@ -1266,7 +1317,7 @@ h2{
 .skill-item p{
     color:#b8b8b8;
     font-size:.9rem;
-}
+}*/
 
 .skill-item:hover{
     transform:translateY(-5px);
